@@ -176,7 +176,6 @@ namespace Microsoft.EntityFrameworkCore.ChangeTracking
         ///         application code.
         ///     </para>
         /// </summary>
-        [Obsolete]
         IStateManager IInfrastructure<IStateManager>.Instance => StateManager;
 
         /// <summary>
